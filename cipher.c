@@ -8,7 +8,7 @@ int main (void) {
     printf("Enter the amount you want to shift by: ");
     scanf("%d", &shift);
 	printf("\nThe string to be encoded is %s and the shift to use is %d\n", mystring, shift);
-	char new = (int)mystring + (int)mystring;
+	char new = (int)mystring + shift;
 	printf("new string = %c\n", new);
 	return 0;
 }
